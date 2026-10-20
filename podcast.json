@@ -1,0 +1,7 @@
+{
+  "title": "Agent Builder Daily",
+  "description": "A daily ~10-minute briefing on the state of the art in building autonomous AI agents: memory, context engineering, skills, evals, sandboxing, user-data safety, harnesses, and more. Generated from a personal research wiki.",
+  "author": "Gibblets",
+  "copyright": "2026 Agent Builder Daily",
+  "base_url": "https://mulch-mgs.github.io/agent-pod-6031af8f"
+}

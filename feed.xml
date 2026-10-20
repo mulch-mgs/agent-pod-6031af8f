@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agent Builder Daily</title>
+    <link>https://mulch-mgs.github.io/agent-pod-6031af8f/</link>
+    <atom:link href="https://mulch-mgs.github.io/agent-pod-6031af8f/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>A daily ~10-minute briefing on the state of the art in building autonomous AI agents: memory, context engineering, skills, evals, sandboxing, user-data safety, harnesses, and more. Generated from a personal research wiki.</description>
+    <language>en-us</language>
+    <copyright>2026 Agent Builder Daily</copyright>
+    <lastBuildDate>Tue, 20 Oct 2026 02:03:13 +0000</lastBuildDate>
+    <generator>agent-wiki scripts/build_feed.py</generator>
+    <image><url>https://mulch-mgs.github.io/agent-pod-6031af8f/cover.jpg</url><title>Agent Builder Daily</title><link>https://mulch-mgs.github.io/agent-pod-6031af8f/</link></image>
+    <itunes:image href="https://mulch-mgs.github.io/agent-pod-6031af8f/cover.jpg"/>
+    <itunes:author>Gibblets</itunes:author>
+    <itunes:owner><itunes:name>Gibblets</itunes:name></itunes:owner>
+    <itunes:summary>A daily ~10-minute briefing on the state of the art in building autonomous AI agents: memory, context engineering, skills, evals, sandboxing, user-data safety, harnesses, and more. Generated from a personal research wiki.</itunes:summary>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:block>yes</itunes:block>
+
+  </channel>
+</rss>
