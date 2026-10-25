@@ -10,5 +10,17 @@
     "duration": 741,
     "pubDate": "Mon, 19 Oct 2026 22:32:45 +0000",
     "guid": "agent-builder-daily-2026-10-19"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Episode 2 - The Harness Is the Product",
+    "episode": 2,
+    "summary": "The harness deep dive: the agent loop, the six components, Anthropic's Planner/Generator/Evaluator design, how Codex, Claude Code, Gemini/Antigravity, Cursor, Aider and Goose differ, plus enterprise quality, OpenTelemetry tracing, pass@k vs pass^k, and a first look at voice agents.",
+    "description_html": "<p>Episode two is the harness deep dive you asked for. A language model only reads and writes text; the harness is the loop around it that turns it into an agent. We break the harness into six engineerable parts, walk through Anthropic's Planner / Generator / Evaluator design, and compare how the major harnesses differ on safety model, where they run, and extensibility.</p>\n<p><b>Highlights</b></p><ul><li>harnesses: the agent loop step by step; six components (execution loop, tool registry, context manager, state store, lifecycle hooks, evaluation interface); Anthropic's sprint contracts and Playwright evaluator; why harness assumptions should be deleted as models improve.</li><li>harness comparison: Codex CLI (Seatbelt, Landlock/seccomp, network off by default), Claude Code (permissions + optional sandbox), Gemini CLI moving to Antigravity CLI, Cursor cloud VMs, Aider/Goose git-undo, Claude Managed Agents (controller, credentials and logs outside the sandbox); frameworks LangGraph, Pydantic AI, OpenAI Agents SDK, Claude Agent SDK.</li><li>enterprise quality / tracing: AICPA + AIUC agent certification (SOC 2 plus live behavioral testing); Harness survey of 700 enterprises (75% in production, 19% eval-gated releases, 33% kill switch); OpenTelemetry GenAI conventions still in development, pin your version.</li><li>evals: pass@k vs pass^k from Sierra's tau-bench; an 87% single-try agent passes all 5 tries only about half the time.</li><li>voice agents (new wiki topic): cascaded pipeline vs speech-to-speech, turn detection with LiveKit Agents and Pipecat, OpenAI Realtime and Gemini Live, latency budgets.</li></ul>\n<p><b>Sources</b></p><ul><li><a href=\"https://www.anthropic.com/engineering/harness-design-long-running-apps\">https://www.anthropic.com/engineering/harness-design-long-running-apps</a></li><li><a href=\"https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents\">https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents</a></li><li><a href=\"https://www.aicpa-cima.com/news/article/auditors-meet-urgent-demand-for-ai-assurance-with-new-offering-from-aicpa-and-aiuc\">https://www.aicpa-cima.com/news/article/auditors-meet-urgent-demand-for-ai-assurance-with-new-offering-from-aicpa-and-aiuc</a></li><li><a href=\"https://www.harness.io/state-of-agent-dlc-2026\">https://www.harness.io/state-of-agent-dlc-2026</a></li><li><a href=\"https://github.com/open-telemetry/semantic-conventions-genai/blob/main/docs/gen-ai/gen-ai-agent-spans.md\">https://github.com/open-telemetry/semantic-conventions-genai/blob/main/docs/gen-ai/gen-ai-agent-spans.md</a></li></ul>",
+    "enclosure_url": "https://github.com/mulch-mgs/agent-pod-6031af8f/releases/download/2026-10-25/agent-builder-daily-2026-10-25.mp3",
+    "length": 5190757,
+    "duration": 649,
+    "pubDate": "Sun, 25 Oct 2026 14:00:00 +0000",
+    "guid": "agent-builder-daily-2026-10-25"
   }
 ]
