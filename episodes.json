@@ -22,5 +22,17 @@
     "duration": 649,
     "pubDate": "Sun, 25 Oct 2026 14:00:00 +0000",
     "guid": "agent-builder-daily-2026-10-25"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Episode 3 - Memory That Gets Better With Use",
+    "episode": 3,
+    "summary": "The memory deep dive promised in Episode 2: why a vector database dump fails for agent memory, how GAM buffers events and consolidates only on topic shift, how REALM reconsolidates memory after retrieval, and which practical memory tool fits which job \u2014 Mem0, Zep and Graphiti, Letta, or plain files.",
+    "description_html": "<p>The memory deep dive promised in Episode 2: why a vector database dump fails for agent memory, how GAM buffers events and consolidates only on topic shift, how REALM reconsolidates memory after retrieval, and which practical memory tool fits which job \u2014 Mem0, Zep and Graphiti, Letta, or plain files.</p>\n<p><b>Highlights</b></p><ul><li>memory: why vector similarity fails \u2014 no truth, no clock, no contradiction handling, no connected story</li><li>GAM (Wu et al., ACL 2026; Ep1 notes' 'GM' corrected): event-progression graph buffered, merged into a topic-associative network only on semantic topic shift; graph-guided multi-factor retrieval</li><li>REALM (Song et al., SJTU/OPPO, September 2026): retrieval-driven reconsolidation lifecycle; heterogeneous cognitive graph (entity/event/episode/fact nodes, logical/causal/hierarchical/associative edges); adaptive seed-expand-filter retrieval; 75.97% LoCoMo, 65.11% LongMemEval</li><li>practical stack by job: Mem0 for per-user facts, Zep/Graphiti temporal graph with validity intervals, Letta/MemGPT tiered agent-managed memory, file-based memory for small agents</li><li>caution: Illinois/UC San Diego/Adobe July 2026 study \u2014 organising markdown memory halved retrieval cost but did not improve answers; organisation only pays with retrieval, reconsolidation, and evals wired in</li><li>failure modes: memory poisoning, stale-fact lock-in (fix with validity windows), summary-of-summary drift, reconsolidation corruption (version it, keep raw source), per-user scoping enforced in the store</li></ul>\n<p><b>Sources</b></p><ul><li><a href=\"https://aclanthology.org/2026.acl-long.1600/\">https://aclanthology.org/2026.acl-long.1600/</a></li><li><a href=\"https://arxiv.org/html/2609.16053\">https://arxiv.org/html/2609.16053</a></li><li><a href=\"https://datapace.ai/blog/ai-agent-memory-tools-2026\">https://datapace.ai/blog/ai-agent-memory-tools-2026</a></li><li><a href=\"https://groundtruth.day/news/organising-an-agents-memory-halves-search-cost-but-does-not-improve-answers.html\">https://groundtruth.day/news/organising-an-agents-memory-halves-search-cost-but-does-not-improve-answers.html</a></li><li><a href=\"https://dev.to/remybuilds/considering-rag-for-your-agent-build-this-instead-4ihf\">https://dev.to/remybuilds/considering-rag-for-your-agent-build-this-instead-4ihf</a></li><li><a href=\"https://atlan.com/know/agentic-ai-memory-vs-vector-database/\">https://atlan.com/know/agentic-ai-memory-vs-vector-database/</a></li></ul>",
+    "enclosure_url": "https://github.com/mulch-mgs/agent-pod-6031af8f/releases/download/2026-10-26/agent-builder-daily-2026-10-26.mp3",
+    "length": 4505125,
+    "duration": 563,
+    "pubDate": "Mon, 26 Oct 2026 14:00:00 +0000",
+    "guid": "agent-builder-daily-2026-10-26"
   }
 ]
